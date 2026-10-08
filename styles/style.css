@@ -120,7 +120,7 @@
   /* Headings */
   --h1-color: #8486bd;
   --h2-color: #8486bd;
-  --h3-color: #5200ff;
+  --h3-color: #292a45;
   --h4-color: #5200ff;
   --h5-color: #5200ff;
   --h6-color: #5200ff;
@@ -129,7 +129,7 @@
   --color-text-project-category: #ffffff;
   --color-text-project-description: #222;
   --color-text-project-sidebar: #222;
-  --color-text-project-title: #5200ff;
+  --color-text-project-title: #292a45;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
   --color-link: #8486bd;
@@ -907,7 +907,9 @@ a.nav-link-primary:hover {
   background-color: var(
     --color-overlay-primary
   ); /* Background color of the overlay */
-  transition: opacity var(--duration-normal), visibility var(--duration-normal);
+  transition:
+    opacity var(--duration-normal),
+    visibility var(--duration-normal);
 }
 
 /* Hover effect on work page grid items */
