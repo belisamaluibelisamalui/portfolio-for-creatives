@@ -105,20 +105,20 @@
   --font-family-heading: "Lora", serif;
   /* --font-family-project-title: "Eczar", serif; */
   /* Core Colours */
-  --color-text-primary: #8486bd;
-  --color-text-secondary: #333;
-  --color-accent-primary: #8486bd;
-  --color-accent-secondary: #ff057c;
+  --color-text-primary: #292a45;
+  --color-text-secondary: #8588c9;
+  --color-accent-primary: #8588c9;
+  --color-accent-secondary: #f2b9a7;
   --color-overlay-primary: rgba(82, 0, 255, 0.5);
-  --color-highlight: lemonchiffon;
-  --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
+  --color-highlight: #f1efff;
+  --color-fallback: #292a45; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
-  --color-bg: #cbcbe6;
-  --color-bg-about: #cbcbe6;
-  --color-bg-footer: #cbcbe6;
+  --color-bg: #f1efff;
+  --color-bg-about: #f1efff;
+  --color-bg-footer: #f1efff;
   /* --color-bg-holding-page: rgba(82, 0, 255, 0.6); */
   /* Headings */
-  --h1-color: #8486bd;
+  --h1-color: #f1efff;
   --h2-color: #8486bd;
   --h3-color: #292a45;
   --h4-color: #5200ff;
@@ -133,15 +133,15 @@
   --color-text-work-grid-title: #ffffff;
   /* Link States */
   --color-link: #8486bd;
-  --color-link-hover: #ff057c;
+  --color-link-hover: #f2b9a7;
   --color-link-visited: #5200ff;
   /* Navigation */
   --color-nav-link: #8486bd;
-  --color-nav-link-hover: #ff057c;
+  --color-nav-link-hover: #f2b9a7;
   --color-nav-arrow: ##8486bd;
-  --color-nav-arrow-hover: #ff057c;
+  --color-nav-arrow-hover: #f2b9a7;
   --color-nav-arrow-stroke: #8486bd;
-  --color-nav-arrow-stroke-hover: #ff057c;
+  --color-nav-arrow-stroke-hover: #f2b9a7;
   /* Components */
   --color-bg-full-width: #f5f5f5;
   --color-bg-project-description: #f5f5f5;
@@ -723,13 +723,13 @@ a.nav-link-primary:hover {
 }
 
 .logo {
-  fill: #8585bd;
+  fill: #8588c9;
   transition: 200ms;
   transition-timing-function: ease-in-out;
 }
 
 .logo:hover {
-  fill: #ea5066;
+  fill: #f2b9a7;
 }
 
 .hero-headline-wrapper {
