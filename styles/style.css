@@ -32,10 +32,10 @@
 /* TODO: Replace these Google Fonts with the ones you want to use on your site. */
 /* Remember, the more fonts you load, the longer it can take for your page to load. */
 
-/* Lora Font (for headers or special text) */
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-/* Nunito Font (clean and modern for body text) */
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap");
+/* Manrope Font (for headers or special text) */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+/* DM Sans Font (clean and modern for body text) */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
 /* Inter Font (great for readability and minimal design)
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
@@ -125,12 +125,12 @@
   --h5-color: #5200ff;
   --h6-color: #5200ff;
   /* Special Text Colours */
-  --color-text-holding-title: #ebedf0;
-  --color-text-project-category: #ffffff;
-  --color-text-project-description: #222;
-  --color-text-project-sidebar: #222;
+  --color-text-holding-title: #292a45;
+  --color-text-project-category: #292a45;
+  --color-text-project-description: #292a45;
+  --color-text-project-sidebar: #292a45;
   --color-text-project-title: #292a45;
-  --color-text-work-grid-title: #ffffff;
+  --color-text-work-grid-title: #292a45;
   /* Link States */
   --color-link: #8486bd;
   --color-link-hover: #f2b9a7;
@@ -718,7 +718,7 @@ a.nav-link-primary:hover {
 }
 
 .nav-branding-logo {
-  width: 3rem;
+  width: 5rem;
   /* TODO: Adjust the width of the logo on mobile devices here */
 }
 
