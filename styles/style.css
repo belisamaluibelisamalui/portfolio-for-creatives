@@ -703,9 +703,9 @@ a.nav-link-primary:hover {
 
 .nav-branding {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  padding: var(--padding-small);
+  padding: 3rem;
   align-items: center;
 }
 
@@ -726,6 +726,8 @@ a.nav-link-primary:hover {
   fill: #8588c9;
   transition: 200ms;
   transition-timing-function: ease-in-out;
+  margin-left: 4rem;
+  margin-top: 1rem;
 }
 
 .logo:hover {
