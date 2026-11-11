@@ -518,6 +518,18 @@ sup {
   font-weight: normal; /* optional: adjust weight */
 }
 
+.button {
+  display: inline-block;
+  margin-top: 2rem;
+  color: var(var(--color-link-hover));
+  background: var(--color-accent-primary);
+}
+
+.button:hover {
+  color: var(--color-accent-primary);
+  background: var(var(--color-link-hover));
+}
+
 /* ------------------------------------------------------------------ */
 /* 🎨 Custom Class Styles for Headlines, Projects, and Highlights     */
 /* Use these utility classes to style key text elements across pages  */
