@@ -10,9 +10,6 @@
       content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!"
     />
     <meta charset="utf-8" />
-    <!-- This site is hosted on Netlify. Anyone can build and deploy a site
-     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=d04e8b6b-a343-450c-aa9b-610e3cdc4c9e
-     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
@@ -43,22 +40,8 @@
 
   <body class="play-sketchbook-page">
     <section class="hero">
-      <!-- Shared header -->
-      <div id="header-placeholder"></div>
-
       <div class="hero-headline-wrapper">
-        <h1 class="hero-headline">
-          A
-          <span class="highlight-primary"><strong>masonry</strong></span>
-          layout with
-          <span class="highlight-gradient"><strong>Lightbox</strong></span>
-          and
-          <span class="highlight-gradient"
-            ><strong>rotation effects</strong></span
-          >
-          , perfect for a fun playground, illustration work or a Sketchbook page
-          for process work!
-        </h1>
+        <h1 class="hero-headline">Testing original play page.</h1>
       </div>
     </section>
     <main class="main-work-section">
@@ -237,78 +220,7 @@
           </li>
         </ul>
       </section>
-      <section class="full-width-section">
-        <div class="full-width-headline-wrapper">
-          <h1 class="full-width-text">🍨 Finally, dessert:</h1>
-          <h2 class="full-width-text">The Playground page</h2>
-          <p class="max-text-width">
-            A Playground page is often a scattered grid of half-finished
-            projects, random ideas, personal experiments, and rejected work we
-            don’t usually get to see in a polished portfolio. It’s the space
-            where the rules don’t apply—you don’t need to fit a brief, explain
-            your process, or curate what stays and what goes.
-          </p>
-          <p class="max-text-width">This is the low-pressure zone.</p>
-          <p class="max-text-width">
-            If you’re feeling unsure about sharing your work, start with a Play
-            page.
-          </p>
-          <p class="max-text-width">
-            It’s a space for dreams and ideas still finding their footing.
-          </p>
-          <h2 class="full-width-text">The Sketchbook page</h2>
-          <p class="max-text-width">
-            A Sketchbook page is where you share the early stages of your
-            creative process. It’s a place for your rough sketches, wireframes,
-            brainstorming notes, and conceptual designs—ideas that haven’t been
-            polished yet but are essential to understanding your thought
-            process.
-          </p>
-          <p class="max-text-width">
-            This page shows how you think, problem-solve, and approach design
-            challenges.
-          </p>
-          <p class="max-text-width">
-            Clients and collaborators will appreciate seeing the evolution of
-            your ideas and the steps you take to refine and perfect them.
-          </p>
-          <p class="max-text-width">
-            Use the Sketchbook page to highlight your creative journey and
-            demonstrate your ability to turn concepts into tangible design
-            solutions.
-          </p>
-          <h2 class="full-width-text">Want to play with JavaScript?</h2>
-          <p class="max-text-width">
-            The images above use a simple CSS hover effect to rotate each image.
-            There’s also a
-            <a href="/play-random-rotation">JavaScript version</a>
-            that randomly chooses a rotation each time you hover over an image.
-            Compare the two demos to see what CSS can do on its own and where
-            JavaScript can add a little extra behaviour.
-          </p>
-        </div>
-      </section>
     </main>
-
-    <!-- Shared footer -->
-    <div id="footer-placeholder"></div>
-
-    <!-- Shared header and footer -->
-    <script>
-      fetch("includes/header-1.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("header-placeholder").innerHTML = data;
-        });
-
-      fetch("includes/footer-1.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("footer-placeholder").innerHTML = data;
-          document.getElementById("copyright-years").textContent +=
-            new Date().getFullYear();
-        });
-    </script>
 
     <script src="./lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
   </body>
