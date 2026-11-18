@@ -132,13 +132,13 @@
   --color-text-project-title: #212362;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #f1efff;
+  --color-link: #8486bd;
   --color-link-hover: #f2b9a7;
   --color-link-visited: #f2b9a7;
   /* Navigation */
   --color-nav-link: #8486bd;
   --color-nav-link-hover: #f2b9a7;
-  --color-nav-arrow: ##8486bd;
+  --color-nav-arrow: #8486bd;
   --color-nav-arrow-hover: #f2b9a7;
   --color-nav-arrow-stroke: #8486bd;
   --color-nav-arrow-stroke-hover: #e5a895;
