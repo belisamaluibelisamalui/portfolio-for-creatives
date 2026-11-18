@@ -40,8 +40,40 @@
 
   <body class="play-sketchbook-page">
     <section class="hero">
+      <header class="hero-header">
+        <ul class="nav-branding">
+          <!-- Logo (standalone LI) -->
+          <li class="nav-branding-logo">
+            <a href="index.html">
+              <img
+                src="assets/branding-images/logo.svg"
+                alt="Your portfolio logo"
+              />
+            </a>
+          </li>
+          <li class="nav-branding-item">
+            <ul class="nav-branding-group">
+              <li class="nav-branding-item">
+                <a href="index.html" class="nav-link-primary">Work</a>
+              </li>
+              <li class="nav-branding-item">
+                <a href="play.html" class="nav-link-primary">Play</a>
+              </li>
+              <li class="nav-branding-item">
+                <a href="about.html" class="nav-link-primary">About</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </header>
       <div class="hero-headline-wrapper">
-        <h1 class="hero-headline">Testing original play page.</h1>
+        <h1 class="hero-headline">
+          A playground for
+          <span class="highlight-primary"><strong>curious</strong></span> ideas
+          and
+          <span class="highlight-primary"><strong>creative</strong></span>
+          experiments.
+        </h1>
       </div>
     </section>
     <main class="main-work-section">
@@ -221,7 +253,58 @@
         </ul>
       </section>
     </main>
+    <ul class="footer-global">
+      <li class="footer-tagline">
+        <h2>Let's Make Something Wonderful!</h2>
+        <p>
+          Every great idea starts somewhere. Let's chat and see where a little
+          curiosity takes us.
+        </p>
+      </li>
 
+      <li class="footer-contact-social">
+        <h2>Contact & Social</h2>
+        <ul class="footer-socials-list">
+          <li class="footer-item">
+            <a href="https://www.instagram.com/designed.by.bel/">
+              <i class="fa-brands fa-instagram fa-xl"></i>
+            </a>
+          </li>
+
+          <li class="footer-item">
+            <a href="https://www.linkedin.com/in/bel-lui-0aa6a41b7/">
+              <i class="fa-brands fa-linkedin fa-xl"></i>
+            </a>
+          </li>
+
+          <li class="footer-item">
+            <a href="https://www.behance.net/bel_lui">
+              <i class="fa-brands fa-behance fa-xl"></i>
+            </a>
+          </li>
+
+          <li class="footer-item">
+            <a href="mailto:belluidesign@gmail.com">
+              <i class="fa-regular fa-envelope fa-xl"></i>
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <li class="footer-full-width">
+        <p><a href="#top">Smooth scroll to the top</a></p>
+        <p class="footer-fineprint">
+          &copy; <span id="copyright-years">2020-</span>. Hand crafted with
+          <span class="heart">❤</span>
+          by Bel Lui.
+        </p>
+
+        <script>
+          document.getElementById("copyright-years").textContent +=
+            new Date().getFullYear();
+        </script>
+      </li>
+    </ul>
     <script src="./lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
   </body>
 </html>
