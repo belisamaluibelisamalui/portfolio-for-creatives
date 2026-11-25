@@ -20,7 +20,6 @@
      - `vertical-align: top` ensures items align at the top of the column
   */
 .masonry-item {
-  margin-bottom: 1rem;
   display: inline-block;
   vertical-align: top;
 }
