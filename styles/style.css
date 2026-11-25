@@ -111,6 +111,7 @@
   --color-accent-secondary: #292a45;
   --color-overlay-primary: rgba(82, 0, 255, 0.5);
   --color-highlight: #f1efff;
+  --color-button: #ffffff;
   --color-fallback: #292a45; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
   --color-bg: #f1efff;
@@ -520,19 +521,6 @@ sup {
   font-weight: normal; /* optional: adjust weight */
 }
 
-.button {
-  display: inline-block;
-  margin-top: 1rem;
-  margin-bottom: 2 rem;
-  color: var(var(--color-highlight));
-  background: var(--color-accent-primary);
-}
-
-.button:hover {
-  color: var(--color-bg-selection);
-  background: var(var(--color-link-hover));
-}
-
 /* ------------------------------------------------------------------ */
 /* 🎨 Custom Class Styles for Headlines, Projects, and Highlights     */
 /* Use these utility classes to style key text elements across pages  */
@@ -649,6 +637,19 @@ a.nav-link-primary {
 }
 a.nav-link-primary:hover {
   color: var(--color-nav-link-hover);
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: var(--color-button);
+  background: var(--color-accent-primary);
+}
+
+a.button:hover {
+  color: var(--color-bg-selection);
+  background: var(var(--color-link-hover));
 }
 
 /* -------------------------------------------------------------------------- */
